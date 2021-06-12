@@ -1,0 +1,46 @@
+
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar card-main "
+    "sidebar card-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+    scroll-behavior: auto;
+}
+
+.card-main{
+    grid-area: card-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+}
+
+.card-def{
+    line-height: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.card-head{
+    padding-top: 0px;
+}
+
+.card-text{
+    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+}

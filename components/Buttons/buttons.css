@@ -1,0 +1,124 @@
+
+.container{
+    position: sticky;
+}
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar button-main "
+    "sidebar button-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+    overflow: auto;
+}
+
+.button-main{
+    grid-area: button-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+}
+
+.button-def{  
+    line-height: 4rem; 
+}
+
+.button-type{
+    padding: 0rem 0rem;
+    line-height: 3rem;
+}
+
+.button-para{
+    line-height: 2rem;
+}
+
+.btn-all{
+    line-height: 6rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.outline-primary{
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+}
+
+.outline-secondary{
+    background-color: white;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.outline-success{
+    background-color: white;
+    border: 2px solid var(--third-color);
+    color: black;
+}
+
+.outline-primary:hover{
+    background-color: red;
+    color: white;
+}
+
+.outline-secondary:hover{
+    background-color: blue;
+    color: white;
+}
+
+.outline-success:hover{
+    background-color: var(--third-color);
+    color: white;
+}
+
+.pills{
+    padding: 0.4rem 0.3rem;
+    border-radius: 128px;
+    font-size: 12px;
+    filter: drop-shadow(2px 5px 10px gray);
+}
+
+.pills-primary{
+    background-color: white;
+    color: black;
+    
+}
+
+.pills-secondary{
+    background-color: white;
+    color: blue;
+}
+
+.pills-success{
+    background-color: white;
+    color: green;
+}
+
+.pills-primary:hover{
+    border: 2px solid red;
+}
+
+.pills-secondary:hover{
+    border: 2px solid blue;
+}
+
+.pills-success:hover{
+    border: 2px solid var(--third-color);
+}
+
+
