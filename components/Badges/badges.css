@@ -1,0 +1,30 @@
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar new-main "
+    "sidebar new-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.new-main{
+    grid-area: new-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+    
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: 200vh;
+}
