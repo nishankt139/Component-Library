@@ -1,0 +1,65 @@
+
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar input-main "
+    "sidebar input-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.new-main{
+    grid-area: new-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+    scroll-behavior: auto;
+}
+
+.input-main{
+    padding: 2rem 2rem;
+    line-height: 4rem;
+}
+
+.input-def{
+    line-height: 3rem;
+}
+
+.input-head{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.form-text{
+    margin-left: 2rem;
+}
+
+.form_label{
+    margin: 1rem;
+}
+
+.input-radio{
+    line-height: 3.1rem;
+    padding: 3rem 1rem;
+    margin: 0.5rem;
+}
+
+.input-checkbox{
+    line-height: 3.1rem;
+    padding: 3rem 1rem;
+    margin: 0.5rem;
+}

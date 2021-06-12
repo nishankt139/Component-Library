@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/comlib.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/components/Input/input.css">
+    <title> Input || Beautify UI </title>
+</head>
+<body>
+
+    <nav class="navigation container">
+        <div class="nav-brands">Beautify UI</div>
+        <ul class="list-non-bullet nav-pills ">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Documentation</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-box">
+        <nav class="side-navigation sidebar">
+            <div class="nav_components">
+                <ul id="ul-style" >
+                    <li>
+                        <a  id="nav_components" class="nav_avatar" href="/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_badges" href="/components/Badges/badges.html">Badges</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_buttons" href="/components/Buttons/buttons.html">Buttons</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_cards" href="/components/Card/cards.html">Cards</a>
+                    </li>
+                    <li>
+                        <a id="nav-components" class="nav_input" href="/components/Input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_images" href="/components/Images/images.html">Images</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="" href="/components/Typography/typography.html">Typography</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="" href=""></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <main class="input-main">
+            <div class="input-def">
+                <h1 class="input-head">Input</h1>
+                <p>Input fields let the user interact with the webpage by entering some text.</p>
+            </div>
+
+            <div>
+                <h3 class="input-head">Text Fields</h3>
+                <form>
+                    <div class="form-text">
+                        <label class="form_label">Name</label>
+                        <input class="form_input" type="text" required="name" placeholder="Name">
+                        
+                    </div>
+                </form>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form-text%2522%253E%250A%2520%2520%253Clabel%2520class%253D%2522form_label%2522%253EName%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522form_input%2522%2520type%253D%2522text%2522%2520required%253D%2522name%2522%2520placeholder%253D%2522Name%2522%253E%250A%253C%252Fdiv%253E"
+                style="width: 780px; height: 266px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+            <div class="input-radio">
+                <h3 class="input-head">Radio Buttons</h3>
+                <form>
+                    <div>
+                        <input type="radio" name="gender" value="male" checked>
+                        <label >Male</label>
+
+                        <input type="radio" name="gender" value="female" >
+                        <label >Female</label>
+
+                        <input type="radio" name="gender" value="None" disabled>
+                        <label >None(Disabled)</label>
+                    </div>
+                </form>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520value%253D%2522male%2522%2520checked%253E%250A%2520%2520%253Clabel%2520%253EMale%253C%252Flabel%253E%250A%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520value%253D%2522female%2522%2520%253E%250A%2520%2520%253Clabel%2520%253EFemale%253C%252Flabel%253E%250A%250A%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522gender%2522%2520value%253D%2522None%2522%2520disabled%253E%250A%2520%2520%253Clabel%2520%253ENone%28Disabled%29%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                style="width: 637px; height: 386px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+            <div class="input-checkbox">
+                <form>
+                    <h3 class="input-head">Check Boxes</h3>
+                    <div>
+                        <input type="checkbox" checked>
+                        <label >Milk</label>
+
+                        <input type="checkbox" >
+                        <label >Sugar</label>
+
+                        <input type="checkbox" disabled>
+                        <label >Lemon(Disabled)</label>
+                    </div>
+                </form>
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2520%2520%253Clabel%2520%253EMilk%253C%252Flabel%253E%250A%250A%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%253E%250A%2520%2520%253Clabel%2520%253ESugar%253C%252Flabel%253E%250A%250A%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2520%2520%253Clabel%2520%253ELemon%28Disabled%29%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                style="width: 435px; height: 386px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+        </main>
+
+    
+    </div>
+
+    
+</body>
+</html>

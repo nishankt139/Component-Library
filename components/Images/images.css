@@ -1,0 +1,65 @@
+
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar images-main "
+    "sidebar images-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+    scroll-behavior: auto;
+}
+
+.images-main{
+    grid-area: images-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+}
+
+.images-def{
+    margin: 0rem;
+    line-height: 2rem;
+}
+
+.images-header{
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.images-para{
+    line-height: 2rem;
+    padding: 2rem 0rem;
+}
+
+.images-responsive{
+    padding: 2.5rem 0rem;
+}
+
+.image-card{
+    padding: 3rem 0rem;
+}
+
+.image-round{
+    border-radius: 50%;
+    padding-top: 0rem;
+}
+
+.head{
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+}
+

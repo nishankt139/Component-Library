@@ -1,0 +1,75 @@
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar new-main "
+    "sidebar new-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.new-main{
+    grid-area: new-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+
+}
+
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+    scroll-behavior: auto;
+}
+
+.heading{
+    line-height: 1.5em;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding: 1rem 0rem;
+}
+
+
+.new-typo{
+    line-height: 1.5em;
+}
+
+.heading-texts{
+    line-height: 3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.centered-heading{
+    padding: 1px 0px;
+    line-height: 3em;
+}
+
+
+
+.centered-heading > h1{
+    text-align: center;
+}
+
+.para{
+    position: relative;
+    left: 2em;
+    top: 3em;
+    line-height: 3em; 
+}
+
+.para-newheading{
+    padding: 3rem 0rem;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
