@@ -12,6 +12,7 @@
     --third-color: #94A3B8;
     --body-color: #EFF6FF;
     --badge-color:#1F2937;
+    --border-color: #14213d;
 }
 
 
@@ -79,8 +80,13 @@ body{
     padding: 1rem;
 }
 
+
 .navigation .link{
     color: white;
+}
+
+.link:hover{
+    color: #1F2937;
 }
 
 .navigation .nav-brands{
