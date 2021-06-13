@@ -6,8 +6,8 @@
     height: 100vh;
     grid-template-columns: 1fr 5.5fr ;
     grid-template-areas: 
-    "sidebar button-main "
-    "sidebar button-main ";
+    "sidebar navigation-main "
+    "sidebar navigation-main ";
     padding-top: 0.4em;
     grid-gap: 0.4em;
 }
@@ -18,4 +18,30 @@
     height: auto;
     overflow: auto;
 }
+
+.navigation-main{
+    grid-area: navigation-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+}
+
+.nav-header{
+    border: 1px solid var(--border-color);
+    background-color: var(--primary-color);
+    color: var(--body-color);
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.nav-para{
+    margin-top: 2rem;
+}
+
+
+
 
