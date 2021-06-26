@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Start/comlib.css">
+    <link rel="stylesheet" href="/Start/index.css">
+    <link rel="stylesheet" href="/components/Buttons/buttons.css">
+    <link rel="stylesheet" href="/components/Toast/toast.css">
+    <title>Toast || Beautify UI</title>
+</head>
+<body>
+
+    <nav class="navigation container">
+        <div class="nav-brands">Beautify UI</div>
+        <ul class="list-non-bullet nav-pills ">
+            <li class="list-item-inline">
+                <a class="link" href="/Start/homepage.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/components/Alerts/alerts.html">Documentation</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/Start/getstarted.html">Get Started</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-box">
+        <nav class="side-navigation sidebar">
+            <div class="nav_components">
+                <ul id="ul-style" >
+                    <li>
+                        <a id="nav_components" class="nav_avatar" href="/components/Alerts/alerts.html">Alerts</a>
+                    </li>
+                    <li>
+                        <a  id="nav_components" class="nav_avatar" href="/components/Avatar/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_badges" href="/components/Badges/badges.html">Badges</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_buttons" href="/components/Buttons/buttons.html">Buttons</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_cards" href="/components/Card/cards.html">Cards</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_grids" href="/components/Grids/grid.html">Grids</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_images" href="/components/Images/images.html">Images</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_input" href="/components/Input/input.html">Input</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_lists" href="/components/Lists/lists.html">Lists</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_modal" href="/components/Modal/modal.html">Modal</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_navigation" href="/components/Navigation/navigation.html">Navigation</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_ratings" href="/components/Ratings/ratings.html">Ratings</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_toast" href="/components/Toast/toast.html">Toast</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_typography" href="/components/Typography/typography.html">Typography</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="toast-main">
+            <div class="toast-def">
+                <h1 class="toast-head">Toast</h1>
+                <p class="toast-para">Toast serves as a feedback & confirmation mechanism after the user takes an action. </p>
+            </div>
+
+            <h2 class="new-head">Sample Toast</h2>
+            <div class="new-toast">
+                <button type="button" class="btn btn-success" onclick="showToast()">Success</button>
+                <div id="toast">This is toast text</div>
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522new-toast%2522%253E%250A%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520onclick%253D%2522showToast%28%29%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520id%253D%2522toast%2522%253EThis%2520is%2520toast%2520text%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 553px; height: 286px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </main>
+    </div>
+
+
+    <script src="/components/Toast/toast.js"></script>
+
+</body>
+</html>
