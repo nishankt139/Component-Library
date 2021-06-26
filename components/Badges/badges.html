@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/comlib.css">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/Start/comlib.css">
+    <link rel="stylesheet" href="/Start/index.css">
     <link rel="stylesheet" href="/components/Badges/badges.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Badges || Beautify UI</title>
 </head>
 <body>
@@ -15,13 +16,16 @@
         <div class="nav-brands">Beautify UI</div>
         <ul class="list-non-bullet nav-pills ">
             <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
+                <a class="link" href="/Start/homepage.html">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Documentation</a>
+                <a class="link" href="/components/Alerts/alerts.html">Documentation</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Contact</a>
+                <a class="link" href="/Start/getstarted.html">Get Started</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="#">Contact</a>
             </li>
         </ul>
     </nav>
@@ -31,7 +35,10 @@
             <div class="nav_components">
                 <ul id="ul-style" >
                     <li>
-                        <a  id="nav_components" class="nav_avatar" href="/components/avatar.html">Avatar</a>
+                        <a id="nav_components" class="nav_avatar" href="/components/Alerts/alerts.html">Alerts</a>
+                    </li>
+                    <li>
+                        <a  id="nav_components" class="nav_avatar" href="/components/Avatar/avatar.html">Avatar</a>
                     </li>
                     <li>
                         <a id="nav_components" class="nav_badges" href="/components/Badges/badges.html">Badges</a>
@@ -43,22 +50,92 @@
                         <a id="nav_components" class="nav_cards" href="/components/Card/cards.html">Cards</a>
                     </li>
                     <li>
+                        <a id="nav_components" class="nav_grids" href="/components/Grids/grid.html">Grids</a>
+                    </li>
+                    <li>
                         <a id="nav_components" class="nav_images" href="/components/Images/images.html">Images</a>
                     </li>
                     <li>
-                        <a id="nav_components" class="" href="/components/Typography/typography.html">Typography</a>
+                        <a id="nav_components" class="nav_input" href="/components/Input/input.html">Input</a>
                     </li>
                     <li>
-                        <a id="nav_components" class="" href=""></a>
+                        <a id="nav_components" class="nav_lists" href="/components/Lists/lists.html">Lists</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_modal" href="/components/Modal/modal.html">Modal</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_navigation" href="/components/Navigation/navigation.html">Navigation</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_ratings" href="/components/Ratings/ratings.html">Ratings</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_toast" href="/components/Toast/toast.html">Toast</a>
+                    </li>
+                    <li>
+                        <a id="nav_components" class="nav_typography" href="/components/Typography/typography.html">Typography</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <main class="new-main">
+        <main class="badge-main">
+            <div class="badge-def">
+                <h1 class="badge-head">Badges</h1>
+                <p class="badge-para">Badges can notify you that there are new or unread messages or notifications and also used to represent status of a particular user in internet forum. </p>
+            </div>
 
+            <div class="Badges">
+                <h2 class="badge-head">Badges On Avatar</h2>
+                <div class="badges-avatar">
+                    <div class="avatar-one">
+                        <img class="badge-avatar-1" src="/images/unnamed.webp" alt="badge">
+                        <div class="badge-green"></div>
+                    </div>
+                    <div class="avatar-two">
+                        <img class="badge-avatar-2" src="/images/download.png" alt="badge2">
+                    </div>
+                </div>
+                
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522badges-avatar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-one%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-avatar-1%2522%2520src%253D%2522%252Fimages%252Funnamed.webp%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-green%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-two%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-avatar-2%2522%2520src%253D%2522%252Fimages%252Fdownload.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522badge2%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%2520"
+                    style="width: 637px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+                
+                <h2 class="badge-head-icons">Badges on Icons</h2>
+                <div class="badges-icons">
+                    <div class="badges-icons-envelope">
+                        <i class="fas fa-envelope fa-3x"></i>
+                        <span class="icon-envelope">25</span>
+                    </div>
+                    <div class="badge-icon-cart">
+                        <i class="env fas fa-shopping-cart fa-3x"></i>
+                        <span class="icon-cart">6</span>
+                    </div>
+                </div>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522badges-icons%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badges-icons-envelope%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-envelope%2522%253E25%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-icon-cart%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522env%2520fas%2520fa-shopping-cart%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-cart%2522%253E6%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 570px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <p class="para-note">Please note that these icons are from Font Awesome Icons</p>
+ 
+            <p class="para-note">Copy-paste the stylesheet <link> into your <head> tag.</p>
+            
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fkit.fontawesome.com%252Fa076d05399.js%2522%253E%253C%252Fscript%253E"
+                style="width: 696px; height: 206px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+              
+            
         </main>
-
     </div>
 
 
