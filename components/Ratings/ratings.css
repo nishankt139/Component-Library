@@ -1,0 +1,63 @@
+
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar rating-main "
+    "sidebar rating-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+    overflow: auto;
+}
+
+.rating-main{
+    grid-area: rating-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    position: sticky;
+}
+
+.rating-def{
+    padding-top: 1.5rem;
+line-height: 4rem;
+}
+
+.new-rating{
+    padding-top: 1.5rem;
+}
+
+.h2{
+    line-height: 1rem;
+}
+
+.rating-star{
+    position: absolute;  
+    padding-top: 1.5rem;
+}
+
+.rating-head{
+    padding-top: 1.5rem;
+}
+
+.rating{
+    color: chartreuse;
+}
+
+.rating-rate{
+    position: relative;
+    left: 6.5rem;
+    bottom: 1.1rem;
+}
