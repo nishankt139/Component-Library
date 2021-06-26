@@ -1,0 +1,49 @@
+
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    " sidebar start-main"
+    " sidebar start-main";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+
+.start-main{
+    grid-area: start-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 85%;
+    max-width: 100%;
+    position: sticky;
+    margin-left: 2rem
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+}
+
+.start-def, .start-css, .start-js, .start-font{
+    margin-top: 2rem;
+    
+}
+
+.start-head{
+    margin: 1rem;
+}
+
+.start-font > p{
+    line-height: 2rem;
+}
+
+#contact{
+    transition: all 0.4s ;
+}
