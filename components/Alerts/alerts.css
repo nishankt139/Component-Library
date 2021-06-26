@@ -1,0 +1,164 @@
+
+
+
+.container-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 5.5fr ;
+    grid-template-areas: 
+    "sidebar alert-main "
+    "sidebar alert-main ";
+    padding-top: 0.4em;
+    grid-gap: 0.4em;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: cyan;
+    height: auto;
+    overflow: auto;
+}
+
+.alert-main{
+    grid-area: alert-main;
+    text-align: justify;
+    word-wrap: normal;
+    top: auto;
+    padding: 22px;
+    width: 100%;
+    max-width: 65%;
+    margin-left: 2rem;
+    position: sticky;
+}
+
+.alerts{
+    margin-left: 2rem;
+}
+
+.alert-def{
+    padding: 0rem 0rem;
+}
+.alert-heading{
+    line-height: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.alert-para{
+    padding-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.alerts{
+    margin-top: 2rem;
+}
+
+.all-heads{
+    margin-top: 1rem;
+}
+
+.error-alert{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   background-color: lightgray;
+   padding: 1.5rem;
+   margin: 8px 0px;
+   width: 400px;
+   border: 1px solid red;
+   border-left: 4px solid black ;
+}
+
+.alert-icon{
+    color: red;
+}
+
+.alert-info{
+    padding: 8px 8px;
+    flex-grow: 1;
+}
+
+.close-btn{
+    align-self: flex-start;
+    font-weight: 1000;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.warning-alert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: lightgray;
+    padding: 1.5rem;
+    margin: 8px 0px;
+    width: 400px;
+    border: 1px solid yellow;
+    border-left: 4px solid black ;
+}
+ 
+.warning-icon{
+     color: rgb(184, 184, 76);
+}
+ 
+.warning-info{
+    padding: 8px 8px;
+    flex-grow: 1;
+}
+
+
+.info-alert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: lightgray;
+    padding: 1.5rem;
+    margin: 8px 0px;
+    width: 400px;
+    border: 1px solid rgb(96, 96, 202);
+    border-left: 4px solid black ;
+}
+ 
+.info-icon{
+     color: rgb(96, 96, 202);
+}
+ 
+.info_alert-info{
+    padding: 8px 8px;
+    flex-grow: 1;
+}
+
+.success-alert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: lightgray;
+    padding: 1.5rem;
+    margin: 8px 0px;
+    width: 400px;
+    border: 1px solid rgb(28, 224, 28);
+    border-left: 4px solid black ;
+}
+ 
+.success-icon{
+     color: rgb(28, 224, 28);
+}
+ 
+.success-info{
+    padding: 8px 8px;
+    flex-grow: 1;
+}
+
+.para-note{
+    padding-top: 2rem;
+    margin-left: 3rem;
+    font-weight: 500;
+}
+
+.lin{
+    color: green;
+}
+
+
+
