@@ -16,7 +16,6 @@
     grid-area: sidebar;
     background: cyan;
     height: auto;
-    overflow: auto;
 }
 
 .alert-main{
